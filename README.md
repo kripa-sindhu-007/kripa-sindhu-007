@@ -1,6 +1,6 @@
 <br clear="both">
 
-<h1 align="left">Hi 👋! My name is Kripa Sindhu and I'm a CSE studnet, from IIIT Guwahati</h1>
+<h1 align="left">Hi 👋! My name is Kripa Sindhu and I'm a CSE student, from IIIT Guwahati</h1>
 
 ###
 
