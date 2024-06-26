@@ -53,6 +53,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/kripa-sindhu-007/kripa-sindhu-007/output/snake.svg" alt="Snake animation" />
+## A rare species of snake found on Github
+![snake_gif](https://github.com/kripa-sindhu-007/kripa-sindhu-007/blob/output/github-contribution-grid-snake.svg)
 
 ###
