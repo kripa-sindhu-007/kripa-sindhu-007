@@ -53,7 +53,5 @@
 
 <br clear="both">
 
-## A rare species of snake found on GitHub
-![snake gif](https://github.com/kripa-sindhu-007/kripa-sindhu-007/blob/output/github-contribution-grid-snake.gif)
 
 ###
