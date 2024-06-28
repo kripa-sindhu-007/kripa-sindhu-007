@@ -13,7 +13,8 @@
 
 ###
 
-<img align="right" height="200" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWViZzQ1a2NhZzk3Z2ZscWE1YzB6ZTJoOHFnMTczNjc0ZzUwczg0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MdA16VIoXKKxNE8Stk/giphy.webp"  />
+
+<img align="right" height="400" src="github profile.gif"/>
 
 ###
 
