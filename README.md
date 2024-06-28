@@ -14,7 +14,7 @@
 ###
 
 
-<img align="right" height="400" src="github profile.gif"/>
+<img align="right" height="250" width="450" src="github profile.gif"/>
 
 ###
 
