@@ -1,6 +1,6 @@
 ![MasterHead](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/81bb4b165684019.640b6038d133e.gif)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&duration=2000&pause=1000&color=FF0071&width=435&lines=Kripa+Sindhu;I+am+a+coder;DSA+%7C+Frontend+%7C+Machine_Learning)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&duration=2000&pause=1000&color=FF0071&width=435&lines=Kripa+Sindhu;I+am+a+coder;DSA+%7C+Web_Dev+%7C+ML)](https://git.io/typing-svg)
 
 I'm a 22-year-old pursuing computer engineering. I love learning and exploring new skills :)
 <img width="20%" align="right" style="padding-left : -100%"  src="https://raw.githubusercontent.com/jeturgavli/jeturgavli/main/Media/01.gif" />
