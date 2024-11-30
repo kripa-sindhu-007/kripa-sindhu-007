@@ -4,7 +4,7 @@
 
 I'm a 22-year-old pursuing computer engineering. I love learning and exploring new skills :)
 <img width="20%" align="right" style="padding-left : -100%"  src="https://raw.githubusercontent.com/jeturgavli/jeturgavli/main/Media/01.gif" />
-- 🔭 I’m currently in my 7th semester. 
+- 🔭 I’m currently in my final year of engineering. 
 - 🌱 I’m currently exploring open-source.
 - 🤔 I’m looking for a good project.
 - 💬 Not sure if I am good at programming or good at Googling :')
