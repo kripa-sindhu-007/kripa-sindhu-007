@@ -63,5 +63,9 @@ Let’s just say I know how to find the answers — and that’s half the job, r
 <!--   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kripa-sindhu-007&locale=en&hide_title=false&layout=default &card_width=320&langs_count=5&theme=radical&hide_border=true&order=2" height="150" alt="languages graph"  /> -->
 <!--   <img src="https://streak-stats.demolab.com?user=kripa-sindhu-007&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  /> -->
 </div>
+<div>
+  ![snake gif](https://github.com/kripa-sindhu-007/kripa-sindhu-007/blob/output/github-snake-dark.svg)
+</div>
+
 
 ###
