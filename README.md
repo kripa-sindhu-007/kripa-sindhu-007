@@ -64,7 +64,11 @@ Let’s just say I know how to find the answers — and that’s half the job, r
 <!--   <img src="https://streak-stats.demolab.com?user=kripa-sindhu-007&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  /> -->
 </div>
 <div>
-  ![snake gif](https://github.com/kripa-sindhu-007/kripa-sindhu-007/blob/output/github-snake-dark.svg)
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kripa-sindhu-007/kripa-sindhu-007/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kripa-sindhu-007/kripa-sindhu-007/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/kripa-sindhu-007/kripa-sindhu-007/output/github-contribution-grid-snake.svg">
+</picture>
 </div>
 
 
