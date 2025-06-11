@@ -59,9 +59,9 @@ Let’s just say I know how to find the answers — and that’s half the job, r
 
 <h1 align="left"> <img src="https://media0.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif?cid=ecf05e47lx1thg8e61tjqfpr4zemby622so2pa1j3sqcsbxp&ep=v1_stickers_search&rid=giphy.gif&ct=s" width="25"> Github Stats </h1>
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=kripa-sindhu-007&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />
-<!--   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kripa-sindhu-007&locale=en&hide_title=false&layout=default &card_width=320&langs_count=5&theme=radical&hide_border=true&order=2" height="150" alt="languages graph"  /> -->
+  <img src="https://github-readme-stats.vercel.app/api?username=kripa-sindhu-007&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true&order=1" height="150" alt="stats graph"  />  
   <img src="https://streak-stats.demolab.com?user=kripa-sindhu-007&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=kripa-sindhu-007&layout=compact&theme=radical&hide_border=true&exclude_repo=LeetCode" alt="Top Language" />
 </div>
 <div>
   <picture>
