@@ -2,18 +2,36 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&duration=2000&pause=1000&color=FF0071&width=435&lines=Kripa+Sindhu;I+am+a+coder;DSA+%7C+Web_Dev+%7C+ML)](https://git.io/typing-svg)
 
-I'm a 23-year-old Software Engineer fueled by curiosity and a caffeine-powered love for learning 🌟
+I’m a **23-year-old Software Engineer** running on curiosity, caffeine, and the irresistible urge to understand how things really work. 🌟
 <img width="20%" align="right" style="padding-left : -100%" src="https://raw.githubusercontent.com/jeturgavli/jeturgavli/main/Media/01.gif" />
 
-🎓 Class of 2025 — still fresh, still coding, still caffeinated.
+🎓 **Class of 2025**  
+🧑‍💻 **Product Engineer in the making**  
+🌌 **Side-project explorer & open-source wanderer**
 
-🌱 Currently wandering through the wonderful world of open source, learning as I go.
+### 🛠 What I Do
 
-🛠 On the hunt for a cool project — something that challenges me and maybe even breaks my brain (just a little).
+I spend my time:
+- Turning ideas into working systems ⚙️  
+- Debugging bugs (and sometimes myself) 🐛  
+- Breaking things, fixing them, and learning why they broke 🔍  
 
-🤖 Still figuring out if I’m a programming prodigy, a Googling guru, or just really good at GPTing my way through bugs.
+Some days I’m a **coding wizard**, some days a **Googling ninja**, and most days I’m just a developer asking GPT smart questions — but code always gets shipped 🚀.
+### 🌱 What I’m Exploring
 
-Let’s just say I know how to find the answers — and that’s half the job, right? 😄
+- **Data Structures, Algorithms & System Design**
+- **Backend, distributed systems & performance**
+- **Web, AI, and real-world product engineering**
+- **Open-source collaboration**
+
+---
+
+### ✨ My Engineering Philosophy
+
+I don’t chase tech stacks — I chase **good engineering problems**.  
+If it **scales, breaks, or makes users happy**, I’m interested.
+
+Let’s build something meaningful.
 
 
 
