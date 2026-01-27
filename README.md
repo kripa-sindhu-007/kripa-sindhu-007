@@ -5,9 +5,9 @@
 I’m a **23-year-old Software Engineer** running on curiosity, caffeine, and the irresistible urge to understand how things really work. 🌟
 <img width="20%" align="right" style="padding-left : -100%" src="https://raw.githubusercontent.com/jeturgavli/jeturgavli/main/Media/01.gif" />
 
-🎓 **Class of 2025**  
-🧑‍💻 **Product Engineer in the making**  
-🌌 **Side-project explorer & open-source wanderer**
+- 🎓 **Class of 2025**  
+- 🧑‍💻 **Product Engineer in the making**  
+- 🌌 **Side-project explorer & open-source wanderer**
 
 ### 🛠 What I Do
 
