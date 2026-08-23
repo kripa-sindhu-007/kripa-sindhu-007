@@ -1,0 +1,106 @@
+<svg width="1280" height="340" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kripa Sindhu — Software Engineer. Production frontends by day, distributed systems you can watch work.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F3F5F9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 40) rotate(115) scale(420 560)">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#1F2328" fill-opacity="0.05"/>
+    </pattern>
+    <linearGradient id="rule" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#6366F1" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .name { font: 700 54px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #1F2328; letter-spacing: -1px; }
+      .role { font: 500 19px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #4F46E5; }
+      .tag  { font: 400 15.5px system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #57606A; }
+      .lbl  { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #57606A; }
+      .lblsm{ font: 500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #6E7781; }
+      .ok   { font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #15803D; }
+      .pulse { animation: travel 4s cubic-bezier(.4,0,.2,1) infinite; }
+      @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 8% { opacity: 1; } 78% { opacity: 1; } 92% { transform: translateX(360px); opacity: 0; } 100% { transform: translateX(360px); opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- canvas -->
+  <rect width="1280" height="340" fill="url(#bg)"/>
+  <rect width="1280" height="340" fill="url(#dots)"/>
+  <rect width="1280" height="340" fill="url(#glow)"/>
+
+  <!-- identity -->
+  <text x="72" y="140" class="name">Kripa Sindhu</text>
+  <text x="72" y="180" class="role">Software Engineer · BeatRoute</text>
+  <text x="72" y="216" class="tag">Production frontends by day. Distributed systems you can watch work —</text>
+  <text x="72" y="242" class="tag">real benchmarks, chaos tests, honest docs.</text>
+
+  <!-- propagation motif -->
+  <g transform="translate(790 96)">
+    <!-- connecting line -->
+    <line x1="34" y1="52" x2="394" y2="52" stroke="#D0D7DE" stroke-width="1.5"/>
+    <!-- traveling pulse -->
+    <circle class="pulse" cx="34" cy="52" r="4" fill="#4F46E5"/>
+
+    <!-- you -->
+    <g>
+      <rect x="6" y="24" width="56" height="56" rx="13" fill="#FFFFFF" stroke="#D0D7DE"/>
+      <circle cx="34" cy="45" r="7" stroke="#4F46E5" stroke-width="1.8" fill="none"/>
+      <path d="M22 66c2-7 7-10 12-10s10 3 12 10" stroke="#4F46E5" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <text x="34" y="98" text-anchor="middle" class="lblsm">you</text>
+    </g>
+
+    <!-- postgres -->
+    <g transform="translate(96 0)">
+      <rect x="6" y="24" width="56" height="56" rx="13" fill="#FFFFFF" stroke="#D0D7DE"/>
+      <ellipse cx="34" cy="41" rx="12" ry="4.5" stroke="#4F46E5" stroke-width="1.8" fill="none"/>
+      <path d="M22 41v20c0 2.5 5.4 4.5 12 4.5s12-2 12-4.5V41" stroke="#4F46E5" stroke-width="1.8" fill="none"/>
+      <text x="34" y="98" text-anchor="middle" class="lblsm">postgres</text>
+    </g>
+
+    <!-- redis -->
+    <g transform="translate(192 0)">
+      <rect x="6" y="24" width="56" height="56" rx="13" fill="#FFFFFF" stroke="#D0D7DE"/>
+      <path d="M20 48l14-6 14 6-14 6z" stroke="#4F46E5" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+      <path d="M20 56l14 6 14-6" stroke="#4F46E5" stroke-width="1.8" fill="none" stroke-linejoin="round"/>
+      <text x="34" y="98" text-anchor="middle" class="lblsm">redis</text>
+    </g>
+
+    <!-- 3 nodes -->
+    <g transform="translate(288 0)">
+      <rect x="6" y="14" width="56" height="22" rx="7" fill="#F0FDF4" stroke="#86EFAC"/>
+      <circle cx="17" cy="25" r="3" fill="#16A34A"/>
+      <text x="27" y="29" class="lblsm" fill="#15803D">b1</text>
+      <rect x="6" y="41" width="56" height="22" rx="7" fill="#F0FDF4" stroke="#86EFAC"/>
+      <circle cx="17" cy="52" r="3" fill="#16A34A"/>
+      <text x="27" y="56" class="lblsm" fill="#15803D">b2</text>
+      <rect x="6" y="68" width="56" height="22" rx="7" fill="#F0FDF4" stroke="#86EFAC"/>
+      <circle cx="17" cy="79" r="3" fill="#16A34A"/>
+      <text x="27" y="83" class="lblsm" fill="#15803D">b3</text>
+      <text x="34" y="108" text-anchor="middle" class="lblsm">3 servers</text>
+    </g>
+
+    <!-- browser -->
+    <g transform="translate(384 0)">
+      <rect x="6" y="24" width="56" height="56" rx="13" fill="#FFFFFF" stroke="#D0D7DE"/>
+      <rect x="18" y="40" width="32" height="24" rx="4" stroke="#4F46E5" stroke-width="1.8" fill="none"/>
+      <line x1="18" y1="47" x2="50" y2="47" stroke="#4F46E5" stroke-width="1.8"/>
+      <text x="34" y="98" text-anchor="middle" class="lblsm">browser</text>
+    </g>
+
+    <!-- converged chip -->
+    <g transform="translate(232 128)">
+      <rect x="0" y="0" width="218" height="34" rx="17" fill="#F0FDF4" stroke="#86EFAC"/>
+      <path d="M16 17l6 6 10-12" stroke="#16A34A" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="42" y="22" class="ok">converged · 59 ms</text>
+    </g>
+  </g>
+
+  <!-- bottom rule -->
+  <rect x="0" y="338" width="1280" height="2" fill="url(#rule)"/>
+</svg>

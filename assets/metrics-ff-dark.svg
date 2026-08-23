@@ -1,0 +1,27 @@
+<svg width="1280" height="248" viewBox="0 0 1280 248" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="p99 192 ms propagation · 5,000 live sse clients · ~74M evals/s local flag evaluation throughput · 6/6 pass chaos scenarios, each asserting an invariant · 0 violations 22-minute soak · 302k evaluations">
+  <style>
+    .v { font: 600 32px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .l { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #8B949E; letter-spacing: 1.5px; }
+  </style>
+  <rect width="1280" height="248" fill="#0D1117"/>
+  <g transform="translate(24 8)">
+    <rect x="0.5" y="0.5" width="607" height="103" rx="18" fill="#161B27" stroke="#30363D"/>
+    <text x="32" y="56" class="v" fill="#A5B4FC">p99 192 ms</text>
+    <text x="32" y="88" class="l">PROPAGATION · 5,000 LIVE SSE CLIENTS</text>
+  </g>
+  <g transform="translate(648 8)">
+    <rect x="0.5" y="0.5" width="607" height="103" rx="18" fill="#161B27" stroke="#30363D"/>
+    <text x="32" y="56" class="v" fill="#A5B4FC">~74M evals/s</text>
+    <text x="32" y="88" class="l">LOCAL FLAG EVALUATION THROUGHPUT</text>
+  </g>
+  <g transform="translate(24 128)">
+    <rect x="0.5" y="0.5" width="607" height="103" rx="18" fill="#161B27" stroke="#30363D"/>
+    <text x="32" y="56" class="v" fill="#4ADE80">6/6 pass</text>
+    <text x="32" y="88" class="l">CHAOS SCENARIOS, EACH ASSERTING AN INVARIANT</text>
+  </g>
+  <g transform="translate(648 128)">
+    <rect x="0.5" y="0.5" width="607" height="103" rx="18" fill="#161B27" stroke="#30363D"/>
+    <text x="32" y="56" class="v" fill="#4ADE80">0 violations</text>
+    <text x="32" y="88" class="l">22-MINUTE SOAK · 302K EVALUATIONS</text>
+  </g>
+</svg>
