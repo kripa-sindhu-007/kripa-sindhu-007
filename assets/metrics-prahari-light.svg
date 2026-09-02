@@ -1,0 +1,27 @@
+<svg width="1280" height="248" viewBox="0 0 1280 248" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="0 runtime deps the import pulls in nothing · standard schema bring your own zod valibot arktype · >97% coverage api frozen by contract tests · sync exits 1 your .env.example cannot drift">
+  <style>
+    .v { font: 600 32px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .l { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #57606A; letter-spacing: 1.5px; }
+  </style>
+  <rect width="1280" height="248" fill="#FFFFFF"/>
+  <g transform="translate(24 8)">
+    <rect x="0.5" y="0.5" width="607" height="103" rx="18" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="32" y="56" class="v" fill="#4F46E5">0 runtime deps</text>
+    <text x="32" y="88" class="l">THE IMPORT PULLS IN NOTHING</text>
+  </g>
+  <g transform="translate(648 8)">
+    <rect x="0.5" y="0.5" width="607" height="103" rx="18" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="32" y="56" class="v" fill="#4F46E5">standard schema</text>
+    <text x="32" y="88" class="l">BRING YOUR OWN ZOD / VALIBOT / ARKTYPE</text>
+  </g>
+  <g transform="translate(24 128)">
+    <rect x="0.5" y="0.5" width="607" height="103" rx="18" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="32" y="56" class="v" fill="#4F46E5">&gt;97% covered</text>
+    <text x="32" y="88" class="l">PUBLIC API FROZEN BY CONTRACT TESTS</text>
+  </g>
+  <g transform="translate(648 128)">
+    <rect x="0.5" y="0.5" width="607" height="103" rx="18" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="32" y="56" class="v" fill="#15803D">sync exits 1</text>
+    <text x="32" y="88" class="l">YOUR .ENV.EXAMPLE CANNOT DRIFT</text>
+  </g>
+</svg>

@@ -43,6 +43,21 @@ A live dashboard that visualizes every stage of a distributed queue — enqueue,
 
 `Go` `Redis` `Next.js` `Docker` `GitHub Actions`
 
+<br>
+
+### [prahari](https://github.com/kripa-sindhu-007/prahari) — type-safe env config that *can't* quietly drift
+
+[<img src="https://raw.githubusercontent.com/kripa-sindhu-007/prahari/main/assets/demo.svg" alt="prahari doctor reporting three invalid environment variables with the secret redacted, then prahari sync catching .env.example drift and exiting 1" width="100%">](https://github.com/kripa-sindhu-007/prahari)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-prahari-dark.svg">
+  <img src="assets/metrics-prahari-light.svg" alt="0 runtime dependencies · Standard Schema compatible — bring your own Zod/Valibot/ArkType · >97% coverage with the public API frozen by contract tests · prahari sync exits 1 so .env.example cannot drift" width="100%">
+</picture>
+
+`process.env.*` is a bag of untyped strings your app trusts blindly, so a misconfigured deploy doesn't fail when you ship it — it fails **later, in production, far from the cause**. prahari validates the whole environment **once at boot** and crashes with a single readable table of everything that's wrong, secrets redacted. The part no other env library has is the CLI: `prahari sync` diffs your schema against `.env.example` and **exits 1 in CI** when they disagree, so the file can't silently stop describing reality. Published to npm with signed provenance, zero runtime dependencies, and a public API frozen by contract tests → [**npm**](https://www.npmjs.com/package/prahari) · [**docs**](https://prahari-azure.vercel.app) · [**API reference**](https://github.com/kripa-sindhu-007/prahari/blob/main/docs/api.md)
+
+`TypeScript` `Node.js` `Standard Schema` `Vitest` `tsup` `npm`
+
 <img src="assets/divider.svg" width="100%" alt="">
 
 ## At work — BeatRoute · Software Engineer · May 2025 – present
