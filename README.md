@@ -2,12 +2,12 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Kripa Sindhu — Software Engineer @ BeatRoute. Production frontends by day, distributed systems you can watch work: real benchmarks, chaos tests, honest docs." width="100%">
+  <img src="assets/hero-light.svg" alt="Kripa Sindhu — Software Engineer at BeatRoute. Work, open source, side projects, family and fun." width="100%">
 </picture>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kripasindhu007-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kripasindhu007/)
 [![Email](https://img.shields.io/badge/Email-mail%40kripasindhu.dev-EA4335?style=for-the-badge)](mailto:mail@kripasindhu.dev)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Knight_·_1914-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/kripa-sindhu-007/)
+[![Blog](https://img.shields.io/badge/Blog-kripasindhu.dev-4F46E5?style=for-the-badge)](https://kripasindhu.dev/blog)
 
 </div>
 
@@ -67,10 +67,11 @@
 
 ## At work — BeatRoute · Software Engineer · May 2025 – present
 
-- Ship production SaaS frontends used by field teams across **15+ countries** (Angular, TypeScript)
-- Led the **Angular 14 → 19 migration** of two production apps — zero downtime, full backward compatibility
-- Co-built the internal **UI component library** adopted across teams (**~30 % less** feature dev effort)
-- Architected the **Report Builder** frontend (flagship feature) and a Jasmine/Karma test framework with **90 %+ coverage**
+- Architected the **Report Builder** end to end — the Angular configuration/visualization UI *and* the Cube.js query layer over a multi-tenant PostgreSQL warehouse — driving a **30 % increase** in self-serve report creation
+- Modeled and extended the **Cube.js semantic layer** (cubes, measures, dimensions, joins) and designed pre-aggregations that cut average query latency **40 %** on high-volume analytics
+- Closed 20+ data-layer edge cases including **row-level-security gaps**, hardening multi-tenant isolation and cutting query-related support tickets **30 %**
+- Built a real-time chatbot over **WebSockets** — sub-200 ms bi-directional delivery for customers across **15+ countries**
+- Led the **Angular 14 → 19 migration** of two production apps with zero downtime, and co-built a **40+ component** internal library used by 5+ teams (**~30 % less** feature effort, WCAG 2.1)
 
 <img src="assets/divider.svg" width="100%" alt="">
 
