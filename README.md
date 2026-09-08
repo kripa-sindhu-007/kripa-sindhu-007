@@ -99,7 +99,9 @@ Each starts as a reproduction against the public API at a known commit, with the
 
 ## Stack
 
-<img src="https://skillicons.dev/icons?i=go,ts,js,python,angular,react,nextjs,nodejs,postgres,redis,mongodb,docker,aws,githubactions&perline=7" alt="Go, TypeScript, JavaScript, Python, Angular, React, Next.js, Node.js, PostgreSQL, Redis, MongoDB, Docker, AWS, GitHub Actions" height="88">
+<img src="https://skillicons.dev/icons?i=go,ts,js,python,postgres,redis,mongodb,nodejs,express,nextjs,react,angular,docker,aws,githubactions&perline=8" alt="Go, TypeScript, JavaScript, Python, PostgreSQL, Redis, MongoDB, Node.js, Express, Next.js, React, Angular, Docker, AWS, GitHub Actions" height="88">
+
+<sub><b>Cube.js</b> · WebSockets · Prometheus · Grafana · Linux</sub>
 
 <br><br>
 
