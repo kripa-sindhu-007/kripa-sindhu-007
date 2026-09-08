@@ -102,11 +102,6 @@ Each starts as a reproduction against the public API at a known commit, with the
 
 <br><br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=kripa-sindhu-007&show_icons=true&hide_border=true&bg_color=00000000&title_color=818cf8&icon_color=818cf8&text_color=c9d1d9">
-  <img src="https://github-readme-stats.vercel.app/api?username=kripa-sindhu-007&show_icons=true&hide_border=true&bg_color=00000000&title_color=4f46e5&icon_color=4f46e5&text_color=24292f" alt="GitHub stats" height="165">
-</picture>
-
 **Building systems that scale — and proving it.**
 Reach me at [mail@kripasindhu.dev](mailto:mail@kripasindhu.dev)
 
