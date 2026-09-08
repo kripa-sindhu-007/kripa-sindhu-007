@@ -69,6 +69,17 @@ A live dashboard that visualizes every stage of a distributed queue — enqueue,
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+## Open source
+
+Contributing to [**OpenFeature**](https://openfeature.dev) (CNCF) — the vendor-neutral feature-flagging standard — in [`open-feature/go-sdk`](https://github.com/open-feature/go-sdk).
+
+- [**#573**](https://github.com/open-feature/go-sdk/pull/573) — `NewHookHints` stored the caller's map by reference, so hints could be mutated after construction and every hook would observe the change. Added a defensive copy, and the assertion the requirement test had been missing: it checked only that the field was unexported, which protects the reference and not the contents.
+- [**#574**](https://github.com/open-feature/go-sdk/pull/574) — a disabled flag surfaced a `GENERAL` error instead of reason `DISABLED`. The in-memory provider attached a resolution error, which the client then treated as abnormal execution and overwrote the reason with `ERROR`.
+
+Every fix starts as a reproduction against the public API at a known commit, written the way a consumer sees the library — so the behaviour is verified before a line changes, and the test is proven to fail without the fix.
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 ## Beyond code
 
 - 📄 **Published researcher** — co-author of *EV-GREEN*, [**Computing** (Springer Nature), Vol. 108, Feb 2026](https://github.com/kripa-sindhu-007/ev-routing-green-v2g) — EV eco-routing via hybrid MILP + graph heuristics
