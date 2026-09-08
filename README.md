@@ -15,48 +15,53 @@
 
 ## Flagship work
 
-### [feature-flag-system](https://github.com/kripa-sindhu-007/feature-flag-system) — a feature-flag platform proven under failure
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
 
-[<img src="assets/flagplane-overview.png" alt="FlagPlane dashboard — a flag flip propagating through Postgres, Redis, and 3 backend nodes, converged in 59 ms" width="100%">](https://github.com/kripa-sindhu-007/feature-flag-system)
+<a href="https://github.com/kripa-sindhu-007/feature-flag-system"><img src="assets/flagplane-overview.png" width="100%" alt="FlagPlane dashboard — a flag flip propagating through Postgres, Redis and 3 backend nodes, converged in 59 ms"></a>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-ff-dark.svg">
-  <img src="assets/metrics-ff-light.svg" alt="p99 192 ms propagation with 5,000 SSE clients · ~74M local evals/sec · 6/6 chaos scenarios pass · 22-min soak with 0 violations" width="100%">
-</picture>
+<a href="https://github.com/kripa-sindhu-007/feature-flag-system"><b>feature-flag-system</b></a>
 
-Self-hosted flags with percentage rollouts, real-time SSE propagation, and local-eval SDKs (TypeScript + Go) — running as a **3-node cluster behind nginx** with Prometheus, Grafana, and OpenTelemetry. Versioned config with optimistic concurrency, a durable event log, and gap-detect + reconcile clients. The dashboard above shows a real flip reaching every server and the browser, live. Every number is measured, every guarantee is chaos-tested, every limitation is documented → [BENCHMARKS](https://github.com/kripa-sindhu-007/feature-flag-system/blob/main/docs/BENCHMARKS.md) · [CHAOS](https://github.com/kripa-sindhu-007/feature-flag-system/blob/main/docs/CHAOS.md) · [LIMITATIONS](https://github.com/kripa-sindhu-007/feature-flag-system/blob/main/docs/LIMITATIONS.md)
+<sub>Self-hosted flags with percentage rollouts and real-time SSE propagation, running as a <b>3-node cluster</b>. Versioned config, durable event log, gap-detect clients.</sub>
 
-`Go` `PostgreSQL` `Redis` `Next.js` `nginx` `Prometheus` `Grafana` `OpenTelemetry`
+<sub><b>p99 192 ms · ~74M evals/s · 6/6 chaos scenarios</b></sub>
 
-<br>
+<sub><code>Go</code> <code>PostgreSQL</code> <code>Redis</code> <code>Next.js</code> <code>nginx</code> <code>Prometheus</code></sub>
 
-### [task-queue-educational-dashboard](https://github.com/kripa-sindhu-007/task-queue-educational-dashboard) — a distributed task queue you can *see*
+<sub><a href="https://github.com/kripa-sindhu-007/feature-flag-system/blob/main/docs/BENCHMARKS.md">Benchmarks</a> · <a href="https://github.com/kripa-sindhu-007/feature-flag-system/blob/main/docs/CHAOS.md">Chaos</a> · <a href="https://github.com/kripa-sindhu-007/feature-flag-system/blob/main/docs/LIMITATIONS.md">Limitations</a></sub>
 
-[<img src="https://raw.githubusercontent.com/kripa-sindhu-007/task-queue-educational-dashboard/main/docs/images/landing.png" alt="Task Queue — animated visualization of work flowing from producer through Redis queue to workers" width="100%">](https://github.com/kripa-sindhu-007/task-queue-educational-dashboard)
+</td>
+<td width="33%" valign="top" align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-tq-dark.svg">
-  <img src="assets/metrics-tq-light.svg" alt="At-least-once delivery · leader election · backpressure · zero task loss under chaos" width="100%">
-</picture>
+<a href="https://github.com/kripa-sindhu-007/task-queue-educational-dashboard"><img src="https://raw.githubusercontent.com/kripa-sindhu-007/task-queue-educational-dashboard/main/docs/images/landing.png" width="100%" alt="Task Queue — animated visualization of work flowing from producer through Redis queue to workers"></a>
 
-A live dashboard that visualizes every stage of a distributed queue — enqueue, lease, process, retry, dead-letter. Kill a worker (or the leader) and watch the system recover with **zero task loss**, in real time, on full Prometheus/Grafana observability.
+<a href="https://github.com/kripa-sindhu-007/task-queue-educational-dashboard"><b>task-queue-educational-dashboard</b></a>
 
-`Go` `Redis` `Next.js` `Docker` `GitHub Actions`
+<sub>A live dashboard of every stage of a distributed queue — enqueue, lease, process, retry, dead-letter. Kill a worker or the leader and watch it recover.</sub>
 
-<br>
+<sub><b>Zero task loss under chaos · at-least-once · leader election</b></sub>
 
-### [prahari](https://github.com/kripa-sindhu-007/prahari) — type-safe env config that *can't* quietly drift
+<sub><code>Go</code> <code>Redis</code> <code>Next.js</code> <code>Docker</code> <code>GitHub Actions</code></sub>
 
-[<img src="https://raw.githubusercontent.com/kripa-sindhu-007/prahari/main/assets/demo.svg" alt="prahari doctor reporting three invalid environment variables with the secret redacted, then prahari sync catching .env.example drift and exiting 1" width="100%">](https://github.com/kripa-sindhu-007/prahari)
+</td>
+<td width="33%" valign="top" align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-prahari-dark.svg">
-  <img src="assets/metrics-prahari-light.svg" alt="0 runtime dependencies · Standard Schema compatible — bring your own Zod/Valibot/ArkType · >97% coverage with the public API frozen by contract tests · prahari sync exits 1 so .env.example cannot drift" width="100%">
-</picture>
+<a href="https://github.com/kripa-sindhu-007/prahari"><img src="https://raw.githubusercontent.com/kripa-sindhu-007/prahari/main/assets/demo.svg" width="100%" alt="prahari doctor reporting three invalid environment variables with the secret redacted, then prahari sync catching .env.example drift and exiting 1"></a>
 
-`process.env.*` is a bag of untyped strings your app trusts blindly, so a misconfigured deploy doesn't fail when you ship it — it fails **later, in production, far from the cause**. prahari validates the whole environment **once at boot** and crashes with a single readable table of everything that's wrong, secrets redacted. The part no other env library has is the CLI: `prahari sync` diffs your schema against `.env.example` and **exits 1 in CI** when they disagree, so the file can't silently stop describing reality. Published to npm with signed provenance, zero runtime dependencies, and a public API frozen by contract tests → [**npm**](https://www.npmjs.com/package/prahari) · [**docs**](https://prahari.kripasindhu.dev) · [**API reference**](https://github.com/kripa-sindhu-007/prahari/blob/main/docs/api.md)
+<a href="https://github.com/kripa-sindhu-007/prahari"><b>prahari</b></a>
 
-`TypeScript` `Node.js` `Standard Schema` `Vitest` `tsup` `npm`
+<sub>Validates the whole environment <b>once at boot</b> and fails with one readable table, secrets redacted. <code>prahari sync</code> exits 1 in CI so <code>.env.example</code> cannot drift.</sub>
+
+<sub><b>0 runtime deps · &gt;97% coverage · API frozen by contract tests</b></sub>
+
+<sub><code>TypeScript</code> <code>Node.js</code> <code>Standard Schema</code> <code>Vitest</code> <code>npm</code></sub>
+
+<sub><a href="https://www.npmjs.com/package/prahari">npm</a> · <a href="https://prahari.kripasindhu.dev">Docs</a> · <a href="https://github.com/kripa-sindhu-007/prahari/blob/main/docs/api.md">API</a></sub>
+
+</td>
+</tr>
+</table>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -71,12 +76,12 @@ A live dashboard that visualizes every stage of a distributed queue — enqueue,
 
 ## Open source
 
-Contributing to [**OpenFeature**](https://openfeature.dev) (CNCF) — the vendor-neutral feature-flagging standard — in [`open-feature/go-sdk`](https://github.com/open-feature/go-sdk).
+Merged fixes in [`open-feature/go-sdk`](https://github.com/open-feature/go-sdk) — the Go SDK for [**OpenFeature**](https://openfeature.dev), the CNCF feature-flagging standard.
 
-- [**#573**](https://github.com/open-feature/go-sdk/pull/573) — `NewHookHints` stored the caller's map by reference, so hints could be mutated after construction and every hook would observe the change. Added a defensive copy, and the assertion the requirement test had been missing: it checked only that the field was unexported, which protects the reference and not the contents.
-- [**#574**](https://github.com/open-feature/go-sdk/pull/574) — a disabled flag surfaced a `GENERAL` error instead of reason `DISABLED`. The in-memory provider attached a resolution error, which the client then treated as abnormal execution and overwrote the reason with `ERROR`.
+- [**#573**](https://github.com/open-feature/go-sdk/pull/573) — hook hints were stored by reference, so callers could mutate them after construction
+- [**#574**](https://github.com/open-feature/go-sdk/pull/574) — a disabled flag returned a `GENERAL` error instead of reason `DISABLED`
 
-Every fix starts as a reproduction against the public API at a known commit, written the way a consumer sees the library — so the behaviour is verified before a line changes, and the test is proven to fail without the fix.
+Each starts as a reproduction against the public API at a known commit, with the test proven to fail without the fix.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
