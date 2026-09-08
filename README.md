@@ -6,7 +6,7 @@
 </picture>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kripasindhu007-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kripasindhu007/)
-[![Email](https://img.shields.io/badge/Email-contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sindhukripa007@gmail.com)
+[![Email](https://img.shields.io/badge/Email-mail%40kripasindhu.dev-EA4335?style=for-the-badge)](mailto:mail@kripasindhu.dev)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Knight_·_1914-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/kripa-sindhu-007/)
 
 </div>
@@ -103,6 +103,6 @@ Every fix starts as a reproduction against the public API at a known commit, wri
 </picture>
 
 **Building systems that scale — and proving it.**
-Reach me at [sindhukripa007@gmail.com](mailto:sindhukripa007@gmail.com)
+Reach me at [mail@kripasindhu.dev](mailto:mail@kripasindhu.dev)
 
 </div>
