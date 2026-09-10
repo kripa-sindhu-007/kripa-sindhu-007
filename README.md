@@ -79,10 +79,14 @@
 
 Merged fixes in [`open-feature/go-sdk`](https://github.com/open-feature/go-sdk) — the Go SDK for [**OpenFeature**](https://openfeature.dev), the CNCF feature-flagging standard.
 
+- [**#566**](https://github.com/open-feature/go-sdk/pull/566) — `ObjectValueDetails` returned the zero value on an abnormal evaluation instead of the default the caller passed in
 - [**#573**](https://github.com/open-feature/go-sdk/pull/573) — hook hints were stored by reference, so callers could mutate them after construction
 - [**#574**](https://github.com/open-feature/go-sdk/pull/574) — a disabled flag returned a `GENERAL` error instead of reason `DISABLED`
+- [**#575**](https://github.com/open-feature/go-sdk/pull/575) — evaluation's early returns left flag metadata `nil`, where the spec says it is always a record
 
 Each starts as a reproduction against the public API at a known commit, with the test proven to fail without the fix.
+
+Open now: a clarification to the [OpenFeature spec](https://github.com/open-feature/spec) itself, and two issues picked up in [`go-git/go-git`](https://github.com/go-git/go-git).
 
 <img src="assets/divider.svg" width="100%" alt="">
 
