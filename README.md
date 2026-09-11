@@ -77,16 +77,15 @@
 
 ## Open source
 
-Merged fixes in [`open-feature/go-sdk`](https://github.com/open-feature/go-sdk) — the Go SDK for [**OpenFeature**](https://openfeature.dev), the CNCF feature-flagging standard.
+Upstream work on [**OpenFeature**](https://openfeature.dev) — the CNCF feature-flagging standard — and on [**go-git**](https://github.com/go-git/go-git), the pure-Go implementation of Git.
 
-- [**#566**](https://github.com/open-feature/go-sdk/pull/566) — `ObjectValueDetails` returned the zero value on an abnormal evaluation instead of the default the caller passed in
-- [**#573**](https://github.com/open-feature/go-sdk/pull/573) — hook hints were stored by reference, so callers could mutate them after construction
-- [**#574**](https://github.com/open-feature/go-sdk/pull/574) — a disabled flag returned a `GENERAL` error instead of reason `DISABLED`
-- [**#575**](https://github.com/open-feature/go-sdk/pull/575) — evaluation's early returns left flag metadata `nil`, where the spec says it is always a record
+| Project | What I work on | Contributions |
+|---|---|---|
+| [**open-feature/go-sdk**](https://github.com/open-feature/go-sdk) | Spec conformance in flag evaluation, hooks and error handling | [PRs &rarr;](https://github.com/open-feature/go-sdk/pulls?q=is%3Apr+author%3Akripa-sindhu-007) |
+| [**open-feature/spec**](https://github.com/open-feature/spec) | Pinning down behaviour the SDKs currently read two ways | [PRs &rarr;](https://github.com/open-feature/spec/pulls?q=is%3Apr+author%3Akripa-sindhu-007) |
+| [**go-git/go-git**](https://github.com/go-git/go-git) | Remote and shallow-clone correctness, proven against upstream Git | [PRs &rarr;](https://github.com/go-git/go-git/pulls?q=is%3Apr+author%3Akripa-sindhu-007) |
 
-Each starts as a reproduction against the public API at a known commit, with the test proven to fail without the fix.
-
-Open now: a clarification to the [OpenFeature spec](https://github.com/open-feature/spec) itself, and two issues picked up in [`go-git/go-git`](https://github.com/go-git/go-git).
+Every fix starts as a reproduction against the public API at a known commit, with the test proven to fail without it — for example [`go-sdk#566`](https://github.com/open-feature/go-sdk/pull/566), where `ObjectValueDetails` returned Go's zero value on an abnormal evaluation instead of the default the caller passed in.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
