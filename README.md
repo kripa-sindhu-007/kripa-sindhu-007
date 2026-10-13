@@ -77,13 +77,14 @@
 
 ## Open source
 
-Upstream work on [**OpenFeature**](https://openfeature.dev) — the CNCF feature-flagging standard — and on [**go-git**](https://github.com/go-git/go-git), the pure-Go implementation of Git.
+Upstream work on [**OpenFeature**](https://openfeature.dev) — the CNCF feature-flagging standard — on [**go-git**](https://github.com/go-git/go-git), the pure-Go implementation of Git, and in the [**Argo**](https://argoproj.github.io) ecosystem.
 
 | Project | What I work on | Contributions |
 |---|---|---|
 | [**open-feature/go-sdk**](https://github.com/open-feature/go-sdk) | Spec conformance in flag evaluation, hooks and error handling | [PRs &rarr;](https://github.com/open-feature/go-sdk/pulls?q=is%3Apr+author%3Akripa-sindhu-007) |
 | [**open-feature/spec**](https://github.com/open-feature/spec) | Pinning down behaviour the SDKs currently read two ways | [PRs &rarr;](https://github.com/open-feature/spec/pulls?q=is%3Apr+author%3Akripa-sindhu-007) |
 | [**go-git/go-git**](https://github.com/go-git/go-git) | Remote and shallow-clone correctness, proven against upstream Git | [PRs &rarr;](https://github.com/go-git/go-git/pulls?q=is%3Apr+author%3Akripa-sindhu-007) |
+| [**argoproj/argo-ui**](https://github.com/argoproj/argo-ui) | Component behaviour traced from Argo CD bug reports, fixed once for Argo CD, Workflows and Rollouts | [PRs &rarr;](https://github.com/argoproj/argo-ui/pulls?q=is%3Apr+author%3Akripa-sindhu-007) |
 
 Every fix starts as a reproduction against the public API at a known commit, with the test proven to fail without it — for example [`go-sdk#566`](https://github.com/open-feature/go-sdk/pull/566), where `ObjectValueDetails` returned Go's zero value on an abnormal evaluation instead of the default the caller passed in.
 
