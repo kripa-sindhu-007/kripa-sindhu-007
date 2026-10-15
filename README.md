@@ -67,11 +67,12 @@
 
 ## At work — BeatRoute · Software Engineer · May 2025 – present
 
-- Architected the **Report Builder** end to end — the Angular configuration/visualization UI *and* the Cube.js query layer over a multi-tenant PostgreSQL warehouse — driving a **30 % increase** in self-serve report creation
-- Modeled and extended the **Cube.js semantic layer** (cubes, measures, dimensions, joins) and designed pre-aggregations that cut average query latency **40 %** on high-volume analytics
-- Closed 20+ data-layer edge cases including **row-level-security gaps**, hardening multi-tenant isolation and cutting query-related support tickets **30 %**
-- Built a real-time chatbot over **WebSockets** — sub-200 ms bi-directional delivery for customers across **15+ countries**
-- Led the **Angular 14 → 19 migration** of two production apps with zero downtime, and co-built a **40+ component** internal library used by 5+ teams (**~30 % less** feature effort, WCAG 2.1)
+- Own the self-serve **Report Builder** end to end — the **Angular 20** UI and the **Cube.js** semantic layer behind it — shipping new data sources, calculated fields, filtering and export paths for multi-tenant customers
+- Model and extend a **73-cube Cube.js** semantic layer over a dbt-built multi-tenant **PostgreSQL** warehouse; its member metadata drives both the AI copilot's SQL generation and the report-builder field pickers
+- Profiled the report builder's client-side aggregation: grid-state reads cut from **800,000 to 1** per pass and formula evaluations by **~45 %**, taking **100,000-row reports from a tab crash to 2.8 s** (an optimisation study, verified with a golden-master harness)
+- Shipped the **React 19 + WebSocket** AI copilot's report-building surface — multi-table artifacts, cancellation, shared-credit display and recovery when a streamed turn never replies
+- Hardened multi-tenant analytics correctness (guarded SQL casts, qualified join columns, org-hierarchy counts) and extended a **TypeScript/Express + MongoDB** Tally ERP sync broker
+- Built **EU/US multi-region** bundles and CI deploys; authored **188 Jasmine/Karma spec files** (~1,970 cases)
 
 <img src="assets/divider.svg" width="100%" alt="">
 
